@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Greeting</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+<p th:text="'Hello, ' + ${name} + '!'"></p>
+
+<p>
+    This is my first Spring Boot MVC page.
+</p>
+
+<img th:src="@{/images/vistula.png}" width="400"/>
+
+</body>
+
+</html>
